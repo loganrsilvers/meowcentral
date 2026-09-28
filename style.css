@@ -2,3 +2,58 @@ body{
     background-image: url('pattern342.gif');
 }
 
+#floor{
+    background-image: url('floor.png');
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+#cat {
+    z-index: 1;
+    height: 400px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+}
+
+#butterfly{
+    z-index: 2;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+
+
+
+#bed{
+    z-index: 0;
+    height: 200px;
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+}
+
+pre {
+    font-size: 20px;
+}
+
+#leopard {
+    z-index: 3;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 100px;
+}
